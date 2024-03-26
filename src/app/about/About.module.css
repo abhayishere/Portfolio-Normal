@@ -156,3 +156,30 @@
 .icon {
   font-size: 2rem;
 }
+
+
+@media (max-width: 768px) {
+  .profileCard {
+    flex-direction: column;
+    align-items: center; /* Center-align the items when in column layout */
+  }
+
+  .avatarWrapper {
+    width: auto; /* Reset any specific width */
+    padding-left: 0; /* Remove additional padding if it was added */
+    margin-right: 0; /* Reset margin if it was added */
+    margin-bottom: 20px; /* Add some space between the avatar and the info */
+  }
+
+  .pfp {
+    max-width: 100%; /* Adjust the max-width to fit the container */
+  }
+
+  .info {
+    align-items: center; /* Align text and icons in the center for smaller screens */
+  }
+
+  .socialLinks {
+    justify-content: center; /* Ensure social links are centered below the text */
+  }
+}
