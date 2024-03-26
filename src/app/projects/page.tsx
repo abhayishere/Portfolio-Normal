@@ -2,6 +2,8 @@
 import React from 'react';
 import Image from 'next/image';
 import styles from './Projects.module.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
 
 const projects=[
     {
@@ -70,6 +72,10 @@ const Projects = () => {
                     </button>
                 </div>
             ))}
+    </div>
+    <div className={styles.scrollPrompt}>
+        <span className={styles.scrollText}>Scroll</span>
+        <FontAwesomeIcon icon={faArrowDown} className={styles.scrollArrow} />
     </div>
     </div>
   );

@@ -17,13 +17,15 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: #ffffff;
   background: linear-gradient(
       to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
+      #2b5876
     )
-    rgb(var(--background-start-rgb));
+    #4e4376;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 @layer utilities {
@@ -36,7 +38,6 @@ body, html {
   height: 100%;
   overflow: auto;
 }
-/* Layout.module.css */
 .layout {
   display: flex;
   min-height: 150vh;

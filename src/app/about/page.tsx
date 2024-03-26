@@ -4,7 +4,7 @@ import styles from './About.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faPhone,faUser } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons';
-
+import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
 
 const About = () => {
     return (
@@ -28,8 +28,8 @@ const About = () => {
                         <a href="#" className={styles.twitterLink}>
                             <FontAwesomeIcon className={styles.icon} icon={faTwitter} />
                         </a>
-                        </div>
                     </div>
+                </div>
                 </div>
                 <p className={styles.bio}>
                     I&apos; m Abhay Yadav, an alumnus of the prestigious Indian Institute of Technology Jammu, where I honed my skills in Electrical Engineering and explored my passion for Computer Science. My academic journey, underscored by a blend of rigorous education and commendable achievements, laid the foundation for my career in technology. At HDFC Bank, I played a key role in enhancing the fund transfer module of the mobile banking app, leveraging my expertise in Golang and data analysis with GCP BigQuery. Beyond professional pursuits, I contributed to a meaningful project on Indian Sign Language at IIT Jammu, showcasing my commitment to leveraging technology for social good. My journey has been about continuously learning, innovating, and applying my knowledge to solve real-world problems, always striving to make a significant impact through technology.
@@ -79,6 +79,10 @@ const About = () => {
                     </ul>
                 </div>
           </div>
+          <div className={styles.scrollPrompt}>
+                <span className={styles.scrollText}>Scroll</span>
+                <FontAwesomeIcon icon={faArrowDown} className={styles.scrollArrow} />
+            </div>
         </section>
       );
   };
