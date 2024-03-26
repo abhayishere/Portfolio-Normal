@@ -6,7 +6,7 @@ export default function Home() {
     <section className={styles.home}>
       <div className={styles.container}>
           <h1 className={styles.title}>
-               Hey, I'm 👋 <br />
+               Hey, I&rsquo;m 👋 <br />
             Abhay   Yadav.<br/>
           </h1>
           <p className={styles.bio}>

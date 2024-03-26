@@ -5,36 +5,42 @@ import styles from './Projects.module.css';
 
 const projects=[
     {
+        id:"1",
         imageUrl:"/ojay.jpg",
         name:"Ojay",
         description:"Online Judge website, similar to codeforces, leetcode.",
         detailUrl:"",
     },
     {
+        id:"2",
         imageUrl:"/food_vision.jpg",
         name:"Food Vision Big",
         description:"Food Vision Big beating the original paper.",
         detailUrl:"",
     },
     {
+        id:"3",
         imageUrl:"/music_player.jpg",
         name:"Music Player using Tkinter",
         description:"Music Player using Tkinter",
         detailUrl:"",
     },
     {
+        id:"4",
         imageUrl:"/sign_language.jpg",
         name:"Sign Language Recognition Model",
         description:"Sign-Language-Recognition-Model.",
         detailUrl:"",
     },
     {
+        id:"5",
         imageUrl:"/nnn.jpg",
         name:"NNNote",
         description:"Note making site with CRUD operations.",
         detailUrl:"",
     },
     {
+        id:"6",
         imageUrl:"/chrome_extensions.jpg",
         name:"Chrome-Extensions-using-JSON-and-APIs",
         description:"Chrome-Extensions-using-JSON-and-APIs.",
@@ -49,7 +55,7 @@ const Projects = () => {
         <p className={styles.subheading}>A selection of projects I worked on in the past few years.</p>
         <div className={styles.container}>
             {projects.map((project, index) => (
-                <div className={styles.card}>
+                <div className={styles.card} key={project.id}>
                     <Image
                     src={project.imageUrl}
                     alt={project.name}

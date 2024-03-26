@@ -14,8 +14,8 @@ const Contact = () => {
 
   return (
     <section className={styles.contactSection}>
-      <h2 className={styles.contactHeading}>Got A Project? Let's Talk.</h2>
-      <p className={styles.contactSubtitle}>I'm available for freelance work and interesting projects. Reach out to me, and let's create something impactful together.</p>
+      <h2 className={styles.contactHeading}>Got A Project? Let&rsquo;s Talk.</h2>
+      <p className={styles.contactSubtitle}>I&rsquo;m available for freelance work and interesting projects. Reach out to me, and let&rsquo;s create something impactful together.</p>
       <form className={styles.contactForm} onSubmit={handleSubmit}>
         <input 
           type="text" 

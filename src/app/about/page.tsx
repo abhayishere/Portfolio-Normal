@@ -33,7 +33,7 @@ const About = () => {
                     </div>
                 </div>
                 <p className={styles.bio}>
-                    I'm Abhay Yadav, an alumnus of the prestigious Indian Institute of Technology Jammu, where I honed my skills in Electrical Engineering and explored my passion for Computer Science. My academic journey, underscored by a blend of rigorous education and commendable achievements, laid the foundation for my career in technology. At HDFC Bank, I played a key role in enhancing the fund transfer module of the mobile banking app, leveraging my expertise in Golang and data analysis with GCP BigQuery. Beyond professional pursuits, I contributed to a meaningful project on Indian Sign Language at IIT Jammu, showcasing my commitment to leveraging technology for social good. My journey has been about continuously learning, innovating, and applying my knowledge to solve real-world problems, always striving to make a significant impact through technology.
+                    I&apos; m Abhay Yadav, an alumnus of the prestigious Indian Institute of Technology Jammu, where I honed my skills in Electrical Engineering and explored my passion for Computer Science. My academic journey, underscored by a blend of rigorous education and commendable achievements, laid the foundation for my career in technology. At HDFC Bank, I played a key role in enhancing the fund transfer module of the mobile banking app, leveraging my expertise in Golang and data analysis with GCP BigQuery. Beyond professional pursuits, I contributed to a meaningful project on Indian Sign Language at IIT Jammu, showcasing my commitment to leveraging technology for social good. My journey has been about continuously learning, innovating, and applying my knowledge to solve real-world problems, always striving to make a significant impact through technology.
                 </p>
                 <div className={styles.contact}>
                     <p>+91 7521803472 | <a href="mailto:abhyadav1@gmail.com">abhyadav1@gmail.com</a> | <a href="https://www.linkedin.com/in/abhay-yadav-754899135/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
@@ -55,7 +55,7 @@ const About = () => {
                     <p className={styles.h3}>Backend Developer @HDFC Bank</p>
                     <code>June 2023 - Present</code>
                     <ul className={styles.details}>
-                        <li className={styles.lili}>Contributed to the backend development for the mobile banking app's fund transfer module.</li>
+                        <li className={styles.lili}>Contributed to the backend development for the mobile banking app&lsquo;s fund transfer module.</li>
                         <li className={styles.lili}>Developed a Proof of Concept (POC) using gofpdf to automate the filling of third-party funds transfer application forms.</li>
                         <li className={styles.lili}>Leveraged GCP BigQuery for in-depth data analysis and log examination.</li>
                     </ul>
