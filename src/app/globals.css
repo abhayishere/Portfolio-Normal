@@ -31,3 +31,26 @@ body {
     text-wrap: balance;
   }
 }
+
+body, html {
+  height: 100%;
+  overflow: auto;
+}
+/* Layout.module.css */
+.layout {
+  display: flex;
+  min-height: 150vh;
+}
+
+
+.other {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100vw;
+}
+
+
+.navbar{
+  z-index: 10;
+}

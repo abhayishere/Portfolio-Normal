@@ -1,0 +1,24 @@
+
+.footer {
+    width: 100%;
+    padding: 1rem 0;
+    text-align: center;
+    background-color: #000000; /* Dark background for the footer */
+    color: #fff; /* White text color */
+    margin-top: auto;
+    padding-left: 4rem;
+  }
+  
+.footer p{
+    text-align: center;
+}
+
+  .sourceCodeLink {
+    color: #0af; /* A color that stands out for the link */
+    text-decoration: none; /* Removes underline from links */
+  }
+  
+  .sourceCodeLink:hover {
+    text-decoration: underline; /* Adds an underline on hover for better UX */
+  }
+  
