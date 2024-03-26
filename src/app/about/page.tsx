@@ -4,8 +4,7 @@ import styles from './About.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faPhone,faUser } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons';
-import  CIcon  from '@coreui/icons-react';
-import { cibLeetcode } from '@coreui/icons';
+
 
 const About = () => {
     return (
