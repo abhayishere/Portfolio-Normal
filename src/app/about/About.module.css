@@ -18,7 +18,8 @@
   
 .section {
   margin-top: 2rem;
-  background-color: rgba(30, 30, 30, 0.5); 
+background: rgba(30, 42, 59, 1.0);
+background: linear-gradient(315deg, rgba(30, 42, 59, 1.0), rgba(40, 72, 103, 1.0));
   border-radius: 8px;
   padding: 1rem;
 }
@@ -86,7 +87,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: #333;
+    background: rgba(30, 42, 59, 1.0);
     color: white;
     padding: 20px;
     border-radius: 8px;

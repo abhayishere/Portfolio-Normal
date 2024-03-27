@@ -18,12 +18,13 @@
 
 body {
   color: #ffffff;
-  background: linear-gradient(
+  /* background: linear-gradient(
       to bottom,
       transparent,
       #2b5876
     )
-    #4e4376;
+    #4e4376; */
+    background-color: rgb(15,23,42,1);
   background-size: cover;
   background-attachment: fixed;
 }
